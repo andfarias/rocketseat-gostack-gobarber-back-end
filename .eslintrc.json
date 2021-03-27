@@ -44,7 +44,15 @@
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "prefix": ["I"],
+        "format": ["PascalCase"]
+      }
+    ],
   },
   "settings": {
     "import/resolver": {
